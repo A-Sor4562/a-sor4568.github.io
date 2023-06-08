@@ -1,9 +1,10 @@
 /*Colour Codes*/
 	:root {
 		--background: #1F2933;
-		--mainText: #CBD2D9;
+		--mainText: #D9E2EC;
 		--navbar: #3E4C59;
 		--navbarHover: #36414d;
+		--headingText: #9FB3C8;
 	}
 
 /*Title Heading */
@@ -13,8 +14,25 @@
 		font-family: Georgia, Times New Roman,
           Times, serif;
 	}
+
+ 
+/*Main Body styling*/
+	body {
+		font-family: Georgia, Times New Roman, Times, serif;
+		color: var(--mainText);
+		background-color: var(--background) }
+		
+	h1{
+		color : var(--mainText);
+		font-family: Helvetica, Geneva, Arial,
+			SunSans-Regular, sans-serif }
 	
-/*Navigation bar styling*/	
+	h2, h3 {
+		color : var(--headingText);
+		font-family: Helvetica, Geneva, Arial,
+			SunSans-Regular, sans-serif }
+		
+/*Top Navigation bar styling*/	
 	ul.navbar {
 		list-style-type: none;
 		margin: 0;
@@ -40,48 +58,8 @@
 	ul.navbar a:hover {
 		background-color: var(--navbarHover);
 	}
- 
-/*Main Body styling*/
-	body {
-		font-family: Georgia, Times New Roman, Times, serif;
-		color: var(--mainText);
-		background-color: var(--background) }
-		
-	h1 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
 
-a:link {
-  color: blue }
-a:visited {
-  color: purple }
-address {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-top: thin dotted }
-/*table {
-  border-collapse: collapse;
-  border-width: 2px;
-  border-color: #131920;
-  letter-spacing: 1px;
-  font-size: 0.8rem;
-}
-
-td, th {
-  border-width: 2px;
-  border-color: #131920;
-  padding: 10px 20px;
-}
-
-th {
-  background-color: #BCCCDC;
-  border-color: #131920;
-}
-
-td {
-  text-align: center;
-}*/
-
+/*Table Formatting*/
 table {
   border-collapse: collapse;
   border: 2px solid #627D98;
@@ -114,4 +92,16 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
+
+ a:link {
+    color: #327ac7 }
+ 
+ a:visited {
+    color: #95adc7 }
+
+}	
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
   

@@ -8,9 +8,10 @@ var(--navbarHover)
 /*Colour Codes*/
 	:root {
 		--background: #1F2933;
-		--mainText: #CBD2D9;
+		--mainText: #D9E2EC;
 		--navbar: #3E4C59;
 		--navbarHover: #36414d;
+		--headingText: #9FB3C8;
 	}
 	
  /*Title Heading */
@@ -25,6 +26,16 @@ var(--navbarHover)
           Times, serif;
 			  color: var(--mainText);
 		background-color: var(--background) }
+	
+	h1{
+		color : var(--mainText);
+		font-family: Helvetica, Geneva, Arial,
+			SunSans-Regular, sans-serif }
+	
+	h2, h3 {
+		color : var(--headingText);
+		font-family: Helvetica, Geneva, Arial,
+			SunSans-Regular, sans-serif }
 
 
 	
@@ -54,14 +65,12 @@ var(--navbarHover)
 	ul.navbar a:hover {
 		background-color: var(--navbarHover);
 	}
- 
-
 
  a:link {
-    color: blue }
+    color: #327ac7 }
  
  a:visited {
-    color: purple }
+    color: #95adc7 }
 
 }	
 h2 {
