@@ -1,0 +1,77 @@
+/*Copy Paste
+var(--background)
+var(--mainText)
+var(--navbar)
+var(--navbarHover)
+*/
+
+/*Colour Codes*/
+	:root {
+		--background: #1F2933;
+		--mainText: #CBD2D9;
+		--navbar: #3E4C59;
+		--navbarHover: #36414d;
+	}
+	
+ /*Title Heading */
+	.title {
+		color: var(--mainText);
+		text-align: center;
+	}
+	
+/*Main Body styling*/
+	body {
+	   font-family: Georgia, Times New Roman,
+          Times, serif;
+			  color: var(--mainText);
+		background-color: var(--background) }
+
+
+	
+/*Navigation bar styling*/	
+	ul.navbar {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: var(--navbar);
+		text-align:center;
+
+	}
+
+	ul.navbar li {	
+		display:inline;
+	}
+	  
+	ul.navbar a {
+		display:inline-block;
+		color: var(--mainText);
+		text-align: center;
+		padding: 0.9em 0.9em;
+		text-decoration: none;
+		text-decoration: none }
+		
+	ul.navbar a:hover {
+		background-color: var(--navbarHover);
+	}
+ 
+
+
+ a:link {
+    color: blue }
+ 
+ a:visited {
+    color: purple }
+
+}	
+h2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+	
+
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+	
